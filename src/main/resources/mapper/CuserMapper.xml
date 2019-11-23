@@ -9,8 +9,4 @@
     <result column="pwd" jdbcType="LONGVARCHAR" property="pwd" />
     <result column="is_active" jdbcType="LONGVARCHAR" property="isActive" />
   </resultMap>
-  <sql id="Base_Column_List">
-    <!--@mbg.generated-->
-    id, username, pwd, is_active
-  </sql>
 </mapper>
