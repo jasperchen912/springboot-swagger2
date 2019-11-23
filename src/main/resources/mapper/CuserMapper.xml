@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cuckoo.springboot.dao.CuserMapper">
+  <resultMap id="BaseResultMap" type="com.cuckoo.springboot.bean.Cuser">
+    <!--@mbg.generated-->
+<!--    @Table cuser-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="LONGVARCHAR" property="username" />
+    <result column="pwd" jdbcType="LONGVARCHAR" property="pwd" />
+    <result column="is_active" jdbcType="LONGVARCHAR" property="isActive" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, username, pwd, is_active
+  </sql>
+</mapper>
