@@ -1,4 +1,4 @@
-package com.cuckoo.springboot.bean;
+package com.cuckoo.springboot.cuser.bean;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
