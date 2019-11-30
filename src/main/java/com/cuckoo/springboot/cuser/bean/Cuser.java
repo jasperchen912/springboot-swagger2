@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 @TableName(value = "cuser")
 public class Cuser implements Serializable {
-    @TableId(value = "id", type = IdType.INPUT)
+    @TableId(value = "id", type = IdType.ID_WORKER)
     private Integer id;
 
     @TableField(value = "username")
